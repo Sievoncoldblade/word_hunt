@@ -1,0 +1,30 @@
+.meanings {
+  /* font-family: "Montserrat", sans-serif; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: thin;
+  height: 55vh;
+}
+
+.subTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 5vw;
+}
+
+.meaning {
+  margin-bottom: 10px;
+}
+
+.definition {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 60vh;
+  }
+}
